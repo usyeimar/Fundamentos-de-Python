@@ -30,3 +30,10 @@ print(type({
         "Apellido":"Lemus",
         "Edad":"Dieciocho"
 }))
+
+num1 = 10
+num2 = 6.7
+
+Resultado = (num1 + num2)* 10/6
+print("El resultado es: ",Resultado)
+
