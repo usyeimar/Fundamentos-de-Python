@@ -1,12 +1,20 @@
 
->>> class Matematicas:
-	def suma(self):
-		self.n1 = 2
-		self.n2 = 3
+class Matematicas:
+		def suma(self):
+				self.n1 = 2
+				self.n2 = 3
+				
+				YOM = Matematicas( )
+  				YOM.suma( )
+			  
+
+resultado = YOM.n1 + YOM.n2
+
+print()
+ 	
+
+
+
 
 		
->>> Y = Matematicas()
->>> Y.suma()
->>> print(Y.n1 + Y.n2)
-5
->>> 
+  
