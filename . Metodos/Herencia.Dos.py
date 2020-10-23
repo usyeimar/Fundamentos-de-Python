@@ -4,7 +4,7 @@ class Calculadora:
         self.datos = [0 for i in range(numero)]
 
     def ingresardato(self):
-        self.datos = [int(input("ingresar datos" +str(i+1)+" =")) for i in range(self.n)]
+        self.datos = [int(input("ingresar datos : " +str(i+1)+" =")) for i in range(self.n)]
 
 
 class op_basicas(Calculadora):
@@ -12,16 +12,18 @@ class op_basicas(Calculadora):
          Calculadora.__init__(self,2)
      
      def suma(self):
-         a,b = self.datos
+         a,b, = self.datos
          s = a + b
          print("El resultado es",s)
+    
+   # def resta(self):
+   #     a,b, = self.datos
+   #     r = a - b
+   #     print("El resultado es: ",r)
 
     
     
-def resta(self):
-         a,b = self.datos
-         r = a - b
-         print("El resultado es",r)
+
 
 class raiz(Calculadora):
     def __init__(self):
@@ -29,13 +31,22 @@ class raiz(Calculadora):
 
     def cuadrada(self):
         import math
-        a, = self.datos
-        print("El resultado es:",math.sqrt(a))
+        a , = self.datos
+        print("El resultado es : ",math.sqrt(a))
 
 
-    run = op_basicas()
-    print(run.ingresardato())
-    print(run.suma())
+
+
+
+run = op_basicas()
+
+
+print(run.ingresardato())
+print(run.suma())
+
+ejemplo = raiz()
+print(ejemplo.ingresardato())  # Esta se cuencia no me funciona
+print(ejemplo.cuadrada)
 
 
 
