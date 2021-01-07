@@ -1,0 +1,4 @@
+color
+yeimar
+kali
+msfadmin
