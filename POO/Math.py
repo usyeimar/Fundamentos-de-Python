@@ -5,7 +5,7 @@ class Complejo:
     def __init__(self,real,imaginario) -> None:
        self.real = real
        self.img = imaginario
-    
+       
     def abs(self):
         print (math.sqrt((self.real*self.real) + (self.img * self.img)))
 
